@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000899] (bmp280) JobQueued: {'identifier': 'bmp280', 'dependencies': OrderedDict()}
+[0.002358] (subscriber) JobQueued: {'identifier': 'subscriber', 'dependencies': OrderedDict()}
+[0.004172] (bmp280) JobStarted: {'identifier': 'bmp280'}
+[0.089932] (subscriber) JobStarted: {'identifier': 'subscriber'}
+[0.098424] (-) TimerEvent: {}
+[0.199825] (-) TimerEvent: {}
+[0.301159] (-) TimerEvent: {}
+[0.402352] (-) TimerEvent: {}
+[0.503652] (-) TimerEvent: {}
+[0.604844] (-) TimerEvent: {}
+[0.706200] (-) TimerEvent: {}
+[0.807329] (-) TimerEvent: {}
+[0.908722] (-) TimerEvent: {}
+[1.009942] (-) TimerEvent: {}
+[1.111157] (-) TimerEvent: {}
+[1.212383] (-) TimerEvent: {}
+[1.313599] (-) TimerEvent: {}
+[1.414883] (-) TimerEvent: {}
+[1.516225] (-) TimerEvent: {}
+[1.617741] (-) TimerEvent: {}
+[1.719617] (-) TimerEvent: {}
+[1.820956] (-) TimerEvent: {}
+[1.922217] (-) TimerEvent: {}
+[2.023373] (-) TimerEvent: {}
+[2.124542] (-) TimerEvent: {}
+[2.225738] (-) TimerEvent: {}
+[2.326869] (-) TimerEvent: {}
+[2.428143] (-) TimerEvent: {}
+[2.529343] (-) TimerEvent: {}
+[2.630749] (-) TimerEvent: {}
+[2.732202] (-) TimerEvent: {}
+[2.833486] (-) TimerEvent: {}
+[2.934736] (-) TimerEvent: {}
+[3.036065] (-) TimerEvent: {}
+[3.137193] (-) TimerEvent: {}
+[3.238333] (-) TimerEvent: {}
+[3.339564] (-) TimerEvent: {}
+[3.440735] (-) TimerEvent: {}
+[3.542170] (-) TimerEvent: {}
+[3.643392] (-) TimerEvent: {}
+[3.744606] (-) TimerEvent: {}
+[3.845873] (-) TimerEvent: {}
+[3.947191] (-) TimerEvent: {}
+[4.048359] (-) TimerEvent: {}
+[4.149595] (-) TimerEvent: {}
+[4.250823] (-) TimerEvent: {}
+[4.352047] (-) TimerEvent: {}
+[4.453154] (-) TimerEvent: {}
+[4.554214] (-) TimerEvent: {}
+[4.655377] (-) TimerEvent: {}
+[4.756598] (-) TimerEvent: {}
+[4.857885] (-) TimerEvent: {}
+[4.959255] (-) TimerEvent: {}
+[5.060628] (-) TimerEvent: {}
+[5.162327] (-) TimerEvent: {}
+[5.263664] (-) TimerEvent: {}
+[5.365158] (-) TimerEvent: {}
+[5.466327] (-) TimerEvent: {}
+[5.567570] (-) TimerEvent: {}
+[5.668868] (-) TimerEvent: {}
+[5.770294] (-) TimerEvent: {}
+[5.871654] (-) TimerEvent: {}
+[5.972963] (-) TimerEvent: {}
+[6.074264] (-) TimerEvent: {}
+[6.175653] (-) TimerEvent: {}
+[6.276871] (-) TimerEvent: {}
+[6.378155] (-) TimerEvent: {}
+[6.479360] (-) TimerEvent: {}
+[6.580673] (-) TimerEvent: {}
+[6.681946] (-) TimerEvent: {}
+[6.783216] (-) TimerEvent: {}
+[6.884417] (-) TimerEvent: {}
+[6.985692] (-) TimerEvent: {}
+[7.087083] (-) TimerEvent: {}
+[7.188254] (-) TimerEvent: {}
+[7.289504] (-) TimerEvent: {}
+[7.390770] (-) TimerEvent: {}
+[7.492134] (-) TimerEvent: {}
+[7.593340] (-) TimerEvent: {}
+[7.694786] (-) TimerEvent: {}
+[7.796281] (-) TimerEvent: {}
+[7.897662] (-) TimerEvent: {}
+[7.999149] (-) TimerEvent: {}
+[8.100544] (-) TimerEvent: {}
+[8.201906] (-) TimerEvent: {}
+[8.303468] (-) TimerEvent: {}
+[8.405578] (-) TimerEvent: {}
+[8.507907] (-) TimerEvent: {}
+[8.609224] (-) TimerEvent: {}
+[8.710601] (-) TimerEvent: {}
+[8.812090] (-) TimerEvent: {}
+[8.913780] (-) TimerEvent: {}
+[9.015340] (-) TimerEvent: {}
+[9.116627] (-) TimerEvent: {}
+[9.218871] (-) TimerEvent: {}
+[9.320557] (-) TimerEvent: {}
+[9.421960] (-) TimerEvent: {}
+[9.523380] (-) TimerEvent: {}
+[9.624864] (-) TimerEvent: {}
+[9.726208] (-) TimerEvent: {}
+[9.827516] (-) TimerEvent: {}
+[9.929086] (-) TimerEvent: {}
+[10.030598] (-) TimerEvent: {}
+[10.131812] (-) TimerEvent: {}
+[10.233222] (-) TimerEvent: {}
+[10.334508] (-) TimerEvent: {}
+[10.435783] (-) TimerEvent: {}
+[10.537224] (-) TimerEvent: {}
+[10.638392] (-) TimerEvent: {}
+[10.740671] (-) TimerEvent: {}
+[10.842093] (-) TimerEvent: {}
+[10.943572] (-) TimerEvent: {}
+[11.045144] (-) TimerEvent: {}
+[11.146413] (-) TimerEvent: {}
+[11.247807] (-) TimerEvent: {}
+[11.350465] (-) TimerEvent: {}
+[11.451951] (-) TimerEvent: {}
+[11.554373] (-) TimerEvent: {}
+[11.655657] (-) TimerEvent: {}
+[11.757932] (-) TimerEvent: {}
+[11.860433] (-) TimerEvent: {}
+[11.961703] (-) TimerEvent: {}
+[12.064152] (-) TimerEvent: {}
+[12.165503] (-) TimerEvent: {}
+[12.266794] (-) TimerEvent: {}
+[12.369220] (-) TimerEvent: {}
+[12.470508] (-) TimerEvent: {}
+[12.572850] (-) TimerEvent: {}
+[12.674356] (-) TimerEvent: {}
+[12.776901] (-) TimerEvent: {}
+[12.878448] (-) TimerEvent: {}
+[12.979693] (-) TimerEvent: {}
+[13.081207] (-) TimerEvent: {}
+[13.182673] (-) TimerEvent: {}
+[13.284051] (-) TimerEvent: {}
+[13.385235] (-) TimerEvent: {}
+[13.486641] (-) TimerEvent: {}
+[13.588255] (-) TimerEvent: {}
+[13.690567] (-) TimerEvent: {}
+[13.792193] (-) TimerEvent: {}
+[13.894601] (-) TimerEvent: {}
+[13.973880] (bmp280) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/bmp280', 'build', '--build-base', '/home/charl/ros2_ws/src/build/bmp280/build', 'install', '--record', '/home/charl/ros2_ws/src/build/bmp280/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/charl/ros2_ws/src/ros2-bmp280', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charl', 'SSH_CLIENT': '192.168.1.102 61422 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/charl', 'OLDPWD': '/home/charl/ros2_ws/src/subscriber', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/charl/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'charl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '16', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/charl/ros2_ws/src/build/bmp280', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 61422 192.168.1.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/charl/ros2_ws/src/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[13.995436] (-) TimerEvent: {}
+[14.007299] (subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/subscriber', 'build', '--build-base', '/home/charl/ros2_ws/src/build/subscriber/build', 'install', '--record', '/home/charl/ros2_ws/src/build/subscriber/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/charl/ros2_ws/src/subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charl', 'SSH_CLIENT': '192.168.1.102 61422 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/charl', 'OLDPWD': '/home/charl/ros2_ws/src/subscriber', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/charl/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'charl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '16', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/charl/ros2_ws/src/build/subscriber', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 61422 192.168.1.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/charl/ros2_ws/src/build/subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages:/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[14.095847] (-) TimerEvent: {}
+[14.197584] (-) TimerEvent: {}
+[14.299066] (-) TimerEvent: {}
+[14.400205] (-) TimerEvent: {}
+[14.501589] (-) TimerEvent: {}
+[14.603041] (-) TimerEvent: {}
+[14.704575] (-) TimerEvent: {}
+[14.806055] (-) TimerEvent: {}
+[14.907376] (-) TimerEvent: {}
+[15.008558] (-) TimerEvent: {}
+[15.110188] (-) TimerEvent: {}
+[15.211443] (-) TimerEvent: {}
+[15.312911] (-) TimerEvent: {}
+[15.414245] (-) TimerEvent: {}
+[15.515634] (-) TimerEvent: {}
+[15.617115] (-) TimerEvent: {}
+[15.718392] (-) TimerEvent: {}
+[15.819849] (-) TimerEvent: {}
+[15.921192] (-) TimerEvent: {}
+[16.022387] (-) TimerEvent: {}
+[16.123684] (-) TimerEvent: {}
+[16.225074] (-) TimerEvent: {}
+[16.326243] (-) TimerEvent: {}
+[16.427543] (-) TimerEvent: {}
+[16.528776] (-) TimerEvent: {}
+[16.630152] (-) TimerEvent: {}
+[16.731379] (-) TimerEvent: {}
+[16.832670] (-) TimerEvent: {}
+[16.933956] (-) TimerEvent: {}
+[17.035217] (-) TimerEvent: {}
+[17.136674] (-) TimerEvent: {}
+[17.238172] (-) TimerEvent: {}
+[17.339389] (-) TimerEvent: {}
+[17.440709] (-) TimerEvent: {}
+[17.542121] (-) TimerEvent: {}
+[17.643316] (-) TimerEvent: {}
+[17.744660] (-) TimerEvent: {}
+[17.846174] (-) TimerEvent: {}
+[17.854500] (subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[17.856354] (bmp280) StdoutLine: {'line': b'running egg_info\n'}
+[17.858180] (subscriber) StdoutLine: {'line': b'creating ../build/subscriber/subscriber.egg-info\n'}
+[17.946456] (-) TimerEvent: {}
+[18.047892] (-) TimerEvent: {}
+[18.094612] (subscriber) StdoutLine: {'line': b'writing ../build/subscriber/subscriber.egg-info/PKG-INFO\n'}
+[18.097534] (subscriber) StdoutLine: {'line': b'writing dependency_links to ../build/subscriber/subscriber.egg-info/dependency_links.txt\n'}
+[18.099350] (bmp280) StdoutLine: {'line': b'writing ../build/bmp280/bmp280.egg-info/PKG-INFO\n'}
+[18.101306] (subscriber) StdoutLine: {'line': b'writing requirements to ../build/subscriber/subscriber.egg-info/requires.txt\n'}
+[18.103632] (bmp280) StdoutLine: {'line': b'writing dependency_links to ../build/bmp280/bmp280.egg-info/dependency_links.txt\n'}
+[18.105310] (subscriber) StdoutLine: {'line': b'writing top-level names to ../build/subscriber/subscriber.egg-info/top_level.txt\n'}
+[18.107763] (subscriber) StdoutLine: {'line': b"writing manifest file '../build/subscriber/subscriber.egg-info/SOURCES.txt'\n"}
+[18.109538] (bmp280) StdoutLine: {'line': b'writing entry points to ../build/bmp280/bmp280.egg-info/entry_points.txt\n'}
+[18.111858] (bmp280) StdoutLine: {'line': b'writing requirements to ../build/bmp280/bmp280.egg-info/requires.txt\n'}
+[18.113162] (bmp280) StdoutLine: {'line': b'writing top-level names to ../build/bmp280/bmp280.egg-info/top_level.txt\n'}
+[18.148229] (-) TimerEvent: {}
+[18.249638] (-) TimerEvent: {}
+[18.351099] (-) TimerEvent: {}
+[18.452283] (-) TimerEvent: {}
+[18.553590] (-) TimerEvent: {}
+[18.599626] (subscriber) StdoutLine: {'line': b"reading manifest file '../build/subscriber/subscriber.egg-info/SOURCES.txt'\n"}
+[18.601130] (bmp280) StdoutLine: {'line': b"reading manifest file '../build/bmp280/bmp280.egg-info/SOURCES.txt'\n"}
+[18.605156] (bmp280) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[18.607115] (subscriber) StdoutLine: {'line': b"writing manifest file '../build/subscriber/subscriber.egg-info/SOURCES.txt'\n"}
+[18.608683] (subscriber) StdoutLine: {'line': b'running build\n'}
+[18.610409] (subscriber) StdoutLine: {'line': b'running build_py\n'}
+[18.612526] (subscriber) StdoutLine: {'line': b'creating /home/charl/ros2_ws/src/build/subscriber/build\n'}
+[18.614943] (bmp280) StdoutLine: {'line': b"writing manifest file '../build/bmp280/bmp280.egg-info/SOURCES.txt'\n"}
+[18.616248] (subscriber) StdoutLine: {'line': b'creating /home/charl/ros2_ws/src/build/subscriber/build/lib\n'}
+[18.617956] (subscriber) StdoutLine: {'line': b'creating /home/charl/ros2_ws/src/build/subscriber/build/lib/subscriber\n'}
+[18.619453] (bmp280) StdoutLine: {'line': b'running build\n'}
+[18.621351] (bmp280) StdoutLine: {'line': b'running build_py\n'}
+[18.622424] (subscriber) StdoutLine: {'line': b'copying subscriber/__init__.py -> /home/charl/ros2_ws/src/build/subscriber/build/lib/subscriber\n'}
+[18.623421] (subscriber) StdoutLine: {'line': b'running install\n'}
+[18.624258] (bmp280) StdoutLine: {'line': b'running install\n'}
+[18.653937] (-) TimerEvent: {}
+[18.701756] (bmp280) StdoutLine: {'line': b'running install_lib\n'}
+[18.703433] (subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[18.754245] (-) TimerEvent: {}
+[18.855547] (-) TimerEvent: {}
+[18.954418] (subscriber) StdoutLine: {'line': b'creating /home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages/subscriber\n'}
+[18.955737] (-) TimerEvent: {}
+[18.956912] (subscriber) StdoutLine: {'line': b'copying /home/charl/ros2_ws/src/build/subscriber/build/lib/subscriber/__init__.py -> /home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages/subscriber\n'}
+[18.963334] (subscriber) StdoutLine: {'line': b'byte-compiling /home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages/subscriber/__init__.py to __init__.cpython-312.pyc\n'}
+[18.965137] (bmp280) StdoutLine: {'line': b'running install_data\n'}
+[18.966899] (bmp280) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.968933] (subscriber) StdoutLine: {'line': b'running install_data\n'}
+[18.971279] (subscriber) StdoutLine: {'line': b'creating /home/charl/ros2_ws/src/install/subscriber/share/ament_index\n'}
+[18.972683] (subscriber) StdoutLine: {'line': b'creating /home/charl/ros2_ws/src/install/subscriber/share/ament_index/resource_index\n'}
+[18.974656] (subscriber) StdoutLine: {'line': b'creating /home/charl/ros2_ws/src/install/subscriber/share/ament_index/resource_index/packages\n'}
+[18.975908] (subscriber) StdoutLine: {'line': b'copying resource/subscriber -> /home/charl/ros2_ws/src/install/subscriber/share/ament_index/resource_index/packages\n'}
+[18.977198] (subscriber) StdoutLine: {'line': b'copying package.xml -> /home/charl/ros2_ws/src/install/subscriber/share/subscriber\n'}
+[18.978872] (subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.056091] (-) TimerEvent: {}
+[19.157244] (-) TimerEvent: {}
+[19.222946] (bmp280) StdoutLine: {'line': b"removing '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[19.227250] (bmp280) StdoutLine: {'line': b'Copying ../build/bmp280/bmp280.egg-info to /home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info\n'}
+[19.230541] (subscriber) StdoutLine: {'line': b'Copying ../build/subscriber/subscriber.egg-info to /home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages/subscriber-0.0.0-py3.12.egg-info\n'}
+[19.243181] (subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[19.244852] (bmp280) StdoutLine: {'line': b'running install_scripts\n'}
+[19.257539] (-) TimerEvent: {}
+[19.358828] (-) TimerEvent: {}
+[19.460178] (-) TimerEvent: {}
+[19.561397] (-) TimerEvent: {}
+[19.662751] (-) TimerEvent: {}
+[19.763964] (-) TimerEvent: {}
+[19.865242] (-) TimerEvent: {}
+[19.966572] (-) TimerEvent: {}
+[20.067928] (-) TimerEvent: {}
+[20.169374] (-) TimerEvent: {}
+[20.270655] (-) TimerEvent: {}
+[20.371947] (-) TimerEvent: {}
+[20.473194] (-) TimerEvent: {}
+[20.574408] (-) TimerEvent: {}
+[20.675746] (-) TimerEvent: {}
+[20.777169] (-) TimerEvent: {}
+[20.878370] (-) TimerEvent: {}
+[20.979647] (-) TimerEvent: {}
+[21.063725] (bmp280) StdoutLine: {'line': b'Installing bmp280_node script to /home/charl/ros2_ws/src/install/bmp280/lib/bmp280\n'}
+[21.066443] (subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/charl/ros2_ws/src/build/subscriber/install.log'\n"}
+[21.068821] (bmp280) StdoutLine: {'line': b"writing list of installed files to '/home/charl/ros2_ws/src/build/bmp280/install.log'\n"}
+[21.080114] (-) TimerEvent: {}
+[21.182539] (-) TimerEvent: {}
+[21.284422] (-) TimerEvent: {}
+[21.386296] (-) TimerEvent: {}
+[21.434814] (subscriber) CommandEnded: {'returncode': 0}
+[21.492870] (-) TimerEvent: {}
+[21.592469] (subscriber) JobEnded: {'identifier': 'subscriber', 'rc': 0}
+[21.600515] (-) TimerEvent: {}
+[21.601326] (bmp280) CommandEnded: {'returncode': 0}
+[21.675086] (bmp280) JobEnded: {'identifier': 'bmp280', 'rc': 0}
+[21.682867] (-) EventReactorShutdown: {}

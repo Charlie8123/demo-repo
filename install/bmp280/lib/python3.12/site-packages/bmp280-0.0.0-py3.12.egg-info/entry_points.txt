@@ -1,0 +1,2 @@
+[console_scripts]
+bmp280_node = bmp280.bmp280_node:main

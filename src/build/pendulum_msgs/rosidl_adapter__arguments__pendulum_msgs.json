@@ -1,0 +1,8 @@
+{
+  "package_name": "pendulum_msgs",
+  "non_idl_tuples": [
+    "/home/charl/ros2_ws/src/demos/pendulum_msgs:msg/JointState.msg",
+    "/home/charl/ros2_ws/src/demos/pendulum_msgs:msg/JointCommand.msg",
+    "/home/charl/ros2_ws/src/demos/pendulum_msgs:msg/RttestResults.msg"
+  ]
+}

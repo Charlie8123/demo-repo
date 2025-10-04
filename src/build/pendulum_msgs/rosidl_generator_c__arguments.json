@@ -1,0 +1,50 @@
+{
+  "package_name": "pendulum_msgs",
+  "output_dir": "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_generator_c/pendulum_msgs",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs:msg/JointState.idl",
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs:msg/JointCommand.idl",
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs:msg/RttestResults.idl"
+  ],
+  "ros_interface_files": [
+    "/home/charl/ros2_ws/src/demos/pendulum_msgs/msg/JointState.msg",
+    "/home/charl/ros2_ws/src/demos/pendulum_msgs/msg/JointCommand.msg",
+    "/home/charl/ros2_ws/src/demos/pendulum_msgs/msg/RttestResults.msg"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs/msg/JointState.idl",
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs/msg/JointCommand.idl",
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs/msg/RttestResults.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/JointState.idl:/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_generator_type_description/pendulum_msgs/msg/JointState.json",
+    "msg/JointCommand.idl:/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_generator_type_description/pendulum_msgs/msg/JointCommand.json",
+    "msg/RttestResults.idl:/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_generator_type_description/pendulum_msgs/msg/RttestResults.json"
+  ]
+}

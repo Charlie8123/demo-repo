@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/dummy_laser.dir/build.make:76: CMakeFiles/dummy_laser.dir/src/dummy_laser.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dummy_joint_states.dir/build.make:76: CMakeFiles/dummy_joint_states.dir/src/dummy_joint_states.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/dummy_joint_states.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dummy_laser.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

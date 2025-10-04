@@ -1,0 +1,24 @@
+[14.080s] Invoking command in '/home/charl/ros2_ws/src/subscriber': PYTHONPATH=/home/charl/ros2_ws/src/build/subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/subscriber build --build-base /home/charl/ros2_ws/src/build/subscriber/build install --record /home/charl/ros2_ws/src/build/subscriber/install.log --single-version-externally-managed install_data
+[17.887s] running egg_info
+[18.138s] writing ../build/subscriber/subscriber.egg-info/PKG-INFO
+[18.143s] writing dependency_links to ../build/subscriber/subscriber.egg-info/dependency_links.txt
+[18.148s] writing entry points to ../build/subscriber/subscriber.egg-info/entry_points.txt
+[18.149s] writing requirements to ../build/subscriber/subscriber.egg-info/requires.txt
+[18.153s] writing top-level names to ../build/subscriber/subscriber.egg-info/top_level.txt
+[18.656s] reading manifest file '../build/subscriber/subscriber.egg-info/SOURCES.txt'
+[18.665s] writing manifest file '../build/subscriber/subscriber.egg-info/SOURCES.txt'
+[18.669s] running build
+[18.671s] running build_py
+[18.675s] copying subscriber/sub.py -> /home/charl/ros2_ws/src/build/subscriber/build/lib/subscriber
+[18.678s] running install
+[18.761s] running install_lib
+[19.011s] copying /home/charl/ros2_ws/src/build/subscriber/build/lib/subscriber/sub.py -> /home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages/subscriber
+[19.019s] byte-compiling /home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages/subscriber/sub.py to sub.cpython-312.pyc
+[19.027s] running install_data
+[19.033s] running install_egg_info
+[19.293s] removing '/home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages/subscriber-0.0.0-py3.12.egg-info' (and everything under it)
+[19.297s] Copying ../build/subscriber/subscriber.egg-info to /home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages/subscriber-0.0.0-py3.12.egg-info
+[19.315s] running install_scripts
+[21.292s] Installing simple_subscriber script to /home/charl/ros2_ws/src/install/subscriber/lib/subscriber
+[21.298s] writing list of installed files to '/home/charl/ros2_ws/src/build/subscriber/install.log'
+[21.833s] Invoked command in '/home/charl/ros2_ws/src/subscriber' returned '0': PYTHONPATH=/home/charl/ros2_ws/src/build/subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/subscriber build --build-base /home/charl/ros2_ws/src/build/subscriber/build install --record /home/charl/ros2_ws/src/build/subscriber/install.log --single-version-externally-managed install_data

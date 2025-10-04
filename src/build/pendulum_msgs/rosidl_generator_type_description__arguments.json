@@ -1,0 +1,12 @@
+{
+  "package_name": "pendulum_msgs",
+  "output_dir": "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_generator_type_description/pendulum_msgs",
+  "idl_tuples": [
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs:msg/JointState.idl",
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs:msg/JointCommand.idl",
+    "/home/charl/ros2_ws/src/build/pendulum_msgs/rosidl_adapter/pendulum_msgs:msg/RttestResults.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

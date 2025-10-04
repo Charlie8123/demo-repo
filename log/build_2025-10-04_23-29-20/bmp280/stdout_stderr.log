@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/bmp280/bmp280.egg-info
+writing ../../build/bmp280/bmp280.egg-info/PKG-INFO
+writing dependency_links to ../../build/bmp280/bmp280.egg-info/dependency_links.txt
+writing entry points to ../../build/bmp280/bmp280.egg-info/entry_points.txt
+writing requirements to ../../build/bmp280/bmp280.egg-info/requires.txt
+writing top-level names to ../../build/bmp280/bmp280.egg-info/top_level.txt
+writing manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+reading manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/charl/ros2_ws/build/bmp280/build
+creating /home/charl/ros2_ws/build/bmp280/build/lib
+creating /home/charl/ros2_ws/build/bmp280/build/lib/bmp280
+copying bmp280/driver.py -> /home/charl/ros2_ws/build/bmp280/build/lib/bmp280
+copying bmp280/bmp280_node.py -> /home/charl/ros2_ws/build/bmp280/build/lib/bmp280
+copying bmp280/__init__.py -> /home/charl/ros2_ws/build/bmp280/build/lib/bmp280
+running install
+running install_lib
+creating /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280
+copying /home/charl/ros2_ws/build/bmp280/build/lib/bmp280/driver.py -> /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280
+copying /home/charl/ros2_ws/build/bmp280/build/lib/bmp280/bmp280_node.py -> /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280
+copying /home/charl/ros2_ws/build/bmp280/build/lib/bmp280/__init__.py -> /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280
+byte-compiling /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280/driver.py to driver.cpython-312.pyc
+byte-compiling /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280/bmp280_node.py to bmp280_node.cpython-312.pyc
+byte-compiling /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/charl/ros2_ws/install/bmp280/share/ament_index
+creating /home/charl/ros2_ws/install/bmp280/share/ament_index/resource_index
+creating /home/charl/ros2_ws/install/bmp280/share/ament_index/resource_index/packages
+copying resource/bmp280 -> /home/charl/ros2_ws/install/bmp280/share/ament_index/resource_index/packages
+copying package.xml -> /home/charl/ros2_ws/install/bmp280/share/bmp280
+creating /home/charl/ros2_ws/install/bmp280/share/bmp280/launch
+copying launch/bmp280.launch.py -> /home/charl/ros2_ws/install/bmp280/share/bmp280/launch
+creating /home/charl/ros2_ws/install/bmp280/share/bmp280/config
+copying config/bmp280_params.yaml -> /home/charl/ros2_ws/install/bmp280/share/bmp280/config
+running install_egg_info
+Copying ../../build/bmp280/bmp280.egg-info to /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info
+running install_scripts
+Installing bmp280_node script to /home/charl/ros2_ws/install/bmp280/lib/bmp280
+writing list of installed files to '/home/charl/ros2_ws/build/bmp280/install.log'

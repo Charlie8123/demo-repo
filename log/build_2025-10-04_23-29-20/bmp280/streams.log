@@ -1,0 +1,45 @@
+[8.551s] Invoking command in '/home/charl/ros2_ws/src/ros2-bmp280': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/charl/ros2_ws/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bmp280 build --build-base /home/charl/ros2_ws/build/bmp280/build install --record /home/charl/ros2_ws/build/bmp280/install.log --single-version-externally-managed install_data
+[11.415s] running egg_info
+[11.417s] creating ../../build/bmp280/bmp280.egg-info
+[11.613s] writing ../../build/bmp280/bmp280.egg-info/PKG-INFO
+[11.616s] writing dependency_links to ../../build/bmp280/bmp280.egg-info/dependency_links.txt
+[11.617s] writing entry points to ../../build/bmp280/bmp280.egg-info/entry_points.txt
+[11.619s] writing requirements to ../../build/bmp280/bmp280.egg-info/requires.txt
+[11.622s] writing top-level names to ../../build/bmp280/bmp280.egg-info/top_level.txt
+[11.623s] writing manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+[12.033s] reading manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+[12.036s] adding license file 'LICENSE'
+[12.041s] writing manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+[12.042s] running build
+[12.044s] running build_py
+[12.045s] creating /home/charl/ros2_ws/build/bmp280/build
+[12.047s] creating /home/charl/ros2_ws/build/bmp280/build/lib
+[12.048s] creating /home/charl/ros2_ws/build/bmp280/build/lib/bmp280
+[12.050s] copying bmp280/driver.py -> /home/charl/ros2_ws/build/bmp280/build/lib/bmp280
+[12.051s] copying bmp280/bmp280_node.py -> /home/charl/ros2_ws/build/bmp280/build/lib/bmp280
+[12.052s] copying bmp280/__init__.py -> /home/charl/ros2_ws/build/bmp280/build/lib/bmp280
+[12.054s] running install
+[12.128s] running install_lib
+[12.329s] creating /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280
+[12.330s] copying /home/charl/ros2_ws/build/bmp280/build/lib/bmp280/driver.py -> /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280
+[12.332s] copying /home/charl/ros2_ws/build/bmp280/build/lib/bmp280/bmp280_node.py -> /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280
+[12.334s] copying /home/charl/ros2_ws/build/bmp280/build/lib/bmp280/__init__.py -> /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280
+[12.340s] byte-compiling /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280/driver.py to driver.cpython-312.pyc
+[12.352s] byte-compiling /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280/bmp280_node.py to bmp280_node.cpython-312.pyc
+[12.360s] byte-compiling /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280/__init__.py to __init__.cpython-312.pyc
+[12.362s] running install_data
+[12.364s] creating /home/charl/ros2_ws/install/bmp280/share/ament_index
+[12.366s] creating /home/charl/ros2_ws/install/bmp280/share/ament_index/resource_index
+[12.367s] creating /home/charl/ros2_ws/install/bmp280/share/ament_index/resource_index/packages
+[12.368s] copying resource/bmp280 -> /home/charl/ros2_ws/install/bmp280/share/ament_index/resource_index/packages
+[12.370s] copying package.xml -> /home/charl/ros2_ws/install/bmp280/share/bmp280
+[12.371s] creating /home/charl/ros2_ws/install/bmp280/share/bmp280/launch
+[12.373s] copying launch/bmp280.launch.py -> /home/charl/ros2_ws/install/bmp280/share/bmp280/launch
+[12.374s] creating /home/charl/ros2_ws/install/bmp280/share/bmp280/config
+[12.376s] copying config/bmp280_params.yaml -> /home/charl/ros2_ws/install/bmp280/share/bmp280/config
+[12.377s] running install_egg_info
+[12.589s] Copying ../../build/bmp280/bmp280.egg-info to /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info
+[12.602s] running install_scripts
+[14.050s] Installing bmp280_node script to /home/charl/ros2_ws/install/bmp280/lib/bmp280
+[14.053s] writing list of installed files to '/home/charl/ros2_ws/build/bmp280/install.log'
+[14.367s] Invoked command in '/home/charl/ros2_ws/src/ros2-bmp280' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/charl/ros2_ws/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bmp280 build --build-base /home/charl/ros2_ws/build/bmp280/build install --record /home/charl/ros2_ws/build/bmp280/install.log --single-version-externally-managed install_data

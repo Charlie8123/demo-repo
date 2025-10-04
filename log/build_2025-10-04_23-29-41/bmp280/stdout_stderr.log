@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/bmp280/bmp280.egg-info/PKG-INFO
+writing dependency_links to ../../build/bmp280/bmp280.egg-info/dependency_links.txt
+writing entry points to ../../build/bmp280/bmp280.egg-info/entry_points.txt
+writing requirements to ../../build/bmp280/bmp280.egg-info/requires.txt
+writing top-level names to ../../build/bmp280/bmp280.egg-info/top_level.txt
+reading manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/bmp280/bmp280.egg-info to /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info
+running install_scripts
+Installing bmp280_node script to /home/charl/ros2_ws/install/bmp280/lib/bmp280
+writing list of installed files to '/home/charl/ros2_ws/build/bmp280/install.log'

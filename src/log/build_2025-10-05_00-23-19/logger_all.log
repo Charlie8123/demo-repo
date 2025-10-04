@@ -1,0 +1,165 @@
+[1.908s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.909s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff91bdf3b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff91d8f9b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff91d8f9b0>>, mixin_verb=('build',))
+[2.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.530s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.532s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/charl/ros2_ws/src'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extensions ['ignore', 'ignore_ament_install']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extension 'ignore'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extension 'ignore_ament_install'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extensions ['colcon_pkg']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extension 'colcon_pkg'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extensions ['colcon_meta']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extension 'colcon_meta'
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extensions ['ros']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-bmp280) by extension 'ros'
+[2.970s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2-bmp280' with type 'ros.ament_python' and name 'bmp280'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extensions ['ignore', 'ignore_ament_install']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extension 'ignore'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extension 'ignore_ament_install'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extensions ['colcon_pkg']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extension 'colcon_pkg'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extensions ['colcon_meta']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extension 'colcon_meta'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extensions ['ros']
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(subscriber) by extension 'ros'
+[2.986s] DEBUG:colcon.colcon_core.package_identification:Package 'subscriber' with type 'ros.ament_python' and name 'subscriber'
+[2.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.987s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/charl/ros2_ws/src/install
+[3.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 192 installed packages in /opt/ros/jazzy
+[3.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.182s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'cmake_args' from command line to 'None'
+[4.183s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'cmake_target' from command line to 'None'
+[4.183s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.183s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'cmake_clean_cache' from command line to 'False'
+[4.184s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'cmake_clean_first' from command line to 'False'
+[4.184s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'cmake_force_configure' from command line to 'False'
+[4.184s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'ament_cmake_args' from command line to 'None'
+[4.184s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'catkin_cmake_args' from command line to 'None'
+[4.185s] Level 5:colcon.colcon_core.verb:set package 'bmp280' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.185s] DEBUG:colcon.colcon_core.verb:Building package 'bmp280' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charl/ros2_ws/src/build/bmp280', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charl/ros2_ws/src/install/bmp280', 'merge_install': False, 'path': '/home/charl/ros2_ws/src/ros2-bmp280', 'symlink_install': False, 'test_result_base': None}
+[4.188s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'cmake_args' from command line to 'None'
+[4.188s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'cmake_target' from command line to 'None'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[4.189s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[4.190s] Level 5:colcon.colcon_core.verb:set package 'subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.190s] DEBUG:colcon.colcon_core.verb:Building package 'subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/charl/ros2_ws/src/build/subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/charl/ros2_ws/src/install/subscriber', 'merge_install': False, 'path': '/home/charl/ros2_ws/src/subscriber', 'symlink_install': False, 'test_result_base': None}
+[4.192s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.198s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.200s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/charl/ros2_ws/src/ros2-bmp280' with build type 'ament_python'
+[4.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('bmp280', 'ament_prefix_path')
+[4.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/hook/ament_prefix_path.ps1'
+[4.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/hook/ament_prefix_path.dsv'
+[4.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/hook/ament_prefix_path.sh'
+[4.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.311s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/charl/ros2_ws/src/subscriber' with build type 'ament_python'
+[4.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscriber', 'ament_prefix_path')
+[4.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/hook/ament_prefix_path.ps1'
+[4.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/hook/ament_prefix_path.dsv'
+[4.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/hook/ament_prefix_path.sh'
+[4.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.373s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/charl/ros2_ws/src/ros2-bmp280'
+[7.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.709s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/charl/ros2_ws/src/subscriber'
+[9.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charl/ros2_ws/src/subscriber': PYTHONPATH=/home/charl/ros2_ws/src/build/subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/subscriber build --build-base /home/charl/ros2_ws/src/build/subscriber/build install --record /home/charl/ros2_ws/src/build/subscriber/install.log --single-version-externally-managed install_data
+[18.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/charl/ros2_ws/src/ros2-bmp280': PYTHONPATH=/home/charl/ros2_ws/src/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bmp280 build --build-base /home/charl/ros2_ws/src/build/bmp280/build install --record /home/charl/ros2_ws/src/build/bmp280/install.log --single-version-externally-managed install_data
+[25.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charl/ros2_ws/src/subscriber' returned '0': PYTHONPATH=/home/charl/ros2_ws/src/build/subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/subscriber build --build-base /home/charl/ros2_ws/src/build/subscriber/build install --record /home/charl/ros2_ws/src/build/subscriber/install.log --single-version-externally-managed install_data
+[25.994s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/subscriber' for CMake module files
+[26.004s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/subscriber' for CMake config files
+[26.018s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/subscriber/lib'
+[26.020s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/subscriber/bin'
+[26.021s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/subscriber/lib/pkgconfig/subscriber.pc'
+[26.023s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/subscriber/lib/python3.12/site-packages'
+[26.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscriber', 'pythonpath')
+[26.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/hook/pythonpath.ps1'
+[26.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/hook/pythonpath.dsv'
+[26.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/hook/pythonpath.sh'
+[26.045s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/subscriber/bin'
+[26.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(subscriber)
+[26.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/package.ps1'
+[26.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/package.dsv'
+[26.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/package.sh'
+[26.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/package.bash'
+[26.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/charl/ros2_ws/src/install/subscriber/share/subscriber/package.zsh'
+[26.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charl/ros2_ws/src/install/subscriber/share/colcon-core/packages/subscriber)
+[26.098s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/bmp280' for CMake module files
+[26.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/charl/ros2_ws/src/ros2-bmp280' returned '0': PYTHONPATH=/home/charl/ros2_ws/src/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bmp280 build --build-base /home/charl/ros2_ws/src/build/bmp280/build install --record /home/charl/ros2_ws/src/build/bmp280/install.log --single-version-externally-managed install_data
+[26.110s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/bmp280' for CMake config files
+[26.123s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/bmp280/lib'
+[26.124s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/bmp280/bin'
+[26.125s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/bmp280/lib/pkgconfig/bmp280.pc'
+[26.128s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages'
+[26.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('bmp280', 'pythonpath')
+[26.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/hook/pythonpath.ps1'
+[26.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/hook/pythonpath.dsv'
+[26.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/hook/pythonpath.sh'
+[26.145s] Level 1:colcon.colcon_core.environment:checking '/home/charl/ros2_ws/src/install/bmp280/bin'
+[26.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bmp280)
+[26.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/package.ps1'
+[26.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/package.dsv'
+[26.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/package.sh'
+[26.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/package.bash'
+[26.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/charl/ros2_ws/src/install/bmp280/share/bmp280/package.zsh'
+[26.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/charl/ros2_ws/src/install/bmp280/share/colcon-core/packages/bmp280)
+[26.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.175s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.178s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[26.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[26.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[26.353s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.364s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[26.365s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.367s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charl/ros2_ws/src/install/local_setup.ps1'
+[26.379s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/charl/ros2_ws/src/install/_local_setup_util_ps1.py'
+[26.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charl/ros2_ws/src/install/setup.ps1'
+[26.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charl/ros2_ws/src/install/local_setup.sh'
+[26.411s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/charl/ros2_ws/src/install/_local_setup_util_sh.py'
+[26.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charl/ros2_ws/src/install/setup.sh'
+[26.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charl/ros2_ws/src/install/local_setup.bash'
+[26.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charl/ros2_ws/src/install/setup.bash'
+[26.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/charl/ros2_ws/src/install/local_setup.zsh'
+[26.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/charl/ros2_ws/src/install/setup.zsh'

@@ -1,0 +1,22 @@
+[8.471s] Invoking command in '/home/charl/ros2_ws/src/ros2-bmp280': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/charl/ros2_ws/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bmp280 build --build-base /home/charl/ros2_ws/build/bmp280/build install --record /home/charl/ros2_ws/build/bmp280/install.log --single-version-externally-managed install_data
+[11.263s] running egg_info
+[11.465s] writing ../../build/bmp280/bmp280.egg-info/PKG-INFO
+[11.467s] writing dependency_links to ../../build/bmp280/bmp280.egg-info/dependency_links.txt
+[11.469s] writing entry points to ../../build/bmp280/bmp280.egg-info/entry_points.txt
+[11.471s] writing requirements to ../../build/bmp280/bmp280.egg-info/requires.txt
+[11.473s] writing top-level names to ../../build/bmp280/bmp280.egg-info/top_level.txt
+[11.884s] reading manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+[11.888s] adding license file 'LICENSE'
+[11.894s] writing manifest file '../../build/bmp280/bmp280.egg-info/SOURCES.txt'
+[11.895s] running build
+[11.896s] running build_py
+[11.900s] running install
+[11.973s] running install_lib
+[12.185s] running install_data
+[12.187s] running install_egg_info
+[12.405s] removing '/home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info' (and everything under it)
+[12.409s] Copying ../../build/bmp280/bmp280.egg-info to /home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info
+[12.422s] running install_scripts
+[13.860s] Installing bmp280_node script to /home/charl/ros2_ws/install/bmp280/lib/bmp280
+[13.863s] writing list of installed files to '/home/charl/ros2_ws/build/bmp280/install.log'
+[14.179s] Invoked command in '/home/charl/ros2_ws/src/ros2-bmp280' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/charl/ros2_ws/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/install/bmp280/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bmp280 build --build-base /home/charl/ros2_ws/build/bmp280/build install --record /home/charl/ros2_ws/build/bmp280/install.log --single-version-externally-managed install_data

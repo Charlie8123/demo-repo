@@ -1,0 +1,6 @@
+source;share/bmp280/hook/pythonpath.ps1
+source;share/bmp280/hook/pythonpath.dsv
+source;share/bmp280/hook/pythonpath.sh
+source;share/bmp280/hook/ament_prefix_path.ps1
+source;share/bmp280/hook/ament_prefix_path.dsv
+source;share/bmp280/hook/ament_prefix_path.sh

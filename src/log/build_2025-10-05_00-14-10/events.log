@@ -1,0 +1,630 @@
+[0.000000] (-) TimerEvent: {}
+[0.000973] (action_tutorials_cpp) JobQueued: {'identifier': 'action_tutorials_cpp', 'dependencies': OrderedDict()}
+[0.001399] (action_tutorials_py) JobQueued: {'identifier': 'action_tutorials_py', 'dependencies': OrderedDict()}
+[0.001678] (bmp280) JobQueued: {'identifier': 'bmp280', 'dependencies': OrderedDict()}
+[0.001849] (composition) JobQueued: {'identifier': 'composition', 'dependencies': OrderedDict()}
+[0.002009] (demo_nodes_cpp) JobQueued: {'identifier': 'demo_nodes_cpp', 'dependencies': OrderedDict()}
+[0.002267] (demo_nodes_cpp_native) JobQueued: {'identifier': 'demo_nodes_cpp_native', 'dependencies': OrderedDict()}
+[0.002429] (demo_nodes_py) JobQueued: {'identifier': 'demo_nodes_py', 'dependencies': OrderedDict()}
+[0.002584] (dummy_map_server) JobQueued: {'identifier': 'dummy_map_server', 'dependencies': OrderedDict()}
+[0.002738] (dummy_sensors) JobQueued: {'identifier': 'dummy_sensors', 'dependencies': OrderedDict()}
+[0.002891] (image_tools) JobQueued: {'identifier': 'image_tools', 'dependencies': OrderedDict()}
+[0.003077] (intra_process_demo) JobQueued: {'identifier': 'intra_process_demo', 'dependencies': OrderedDict()}
+[0.003306] (lifecycle) JobQueued: {'identifier': 'lifecycle', 'dependencies': OrderedDict()}
+[0.003484] (logging_demo) JobQueued: {'identifier': 'logging_demo', 'dependencies': OrderedDict()}
+[0.003655] (pendulum_msgs) JobQueued: {'identifier': 'pendulum_msgs', 'dependencies': OrderedDict()}
+[0.003824] (quality_of_service_demo_cpp) JobQueued: {'identifier': 'quality_of_service_demo_cpp', 'dependencies': OrderedDict()}
+[0.003996] (quality_of_service_demo_py) JobQueued: {'identifier': 'quality_of_service_demo_py', 'dependencies': OrderedDict()}
+[0.004546] (topic_monitor) JobQueued: {'identifier': 'topic_monitor', 'dependencies': OrderedDict()}
+[0.004733] (topic_statistics_demo) JobQueued: {'identifier': 'topic_statistics_demo', 'dependencies': OrderedDict()}
+[0.004905] (dummy_robot_bringup) JobQueued: {'identifier': 'dummy_robot_bringup', 'dependencies': OrderedDict({'dummy_map_server': '/home/charl/ros2_ws/src/install/dummy_map_server', 'dummy_sensors': '/home/charl/ros2_ws/src/install/dummy_sensors'})}
+[0.005232] (lifecycle_py) JobQueued: {'identifier': 'lifecycle_py', 'dependencies': OrderedDict({'lifecycle': '/home/charl/ros2_ws/src/install/lifecycle'})}
+[0.006297] (pendulum_control) JobQueued: {'identifier': 'pendulum_control', 'dependencies': OrderedDict({'pendulum_msgs': '/home/charl/ros2_ws/src/install/pendulum_msgs'})}
+[0.009555] (dummy_map_server) JobStarted: {'identifier': 'dummy_map_server'}
+[0.097953] (-) TimerEvent: {}
+[0.102846] (dummy_sensors) JobStarted: {'identifier': 'dummy_sensors'}
+[0.143193] (lifecycle) JobStarted: {'identifier': 'lifecycle'}
+[0.181029] (pendulum_msgs) JobStarted: {'identifier': 'pendulum_msgs'}
+[0.198307] (-) TimerEvent: {}
+[0.233366] (dummy_map_server) JobProgress: {'identifier': 'dummy_map_server', 'progress': 'cmake'}
+[0.239476] (dummy_map_server) Command: {'cmd': ['/usr/bin/cmake', '/home/charl/ros2_ws/src/demos/dummy_robot/dummy_map_server', '-DCMAKE_INSTALL_PREFIX=/home/charl/ros2_ws/src/install/dummy_map_server'], 'cwd': '/home/charl/ros2_ws/src/build/dummy_map_server', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charl', 'SSH_CLIENT': '192.168.1.102 61422 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/charl', 'OLDPWD': '/home/charl/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/charl/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'charl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '16', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/charl/ros2_ws/src/build/dummy_map_server', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 61422 192.168.1.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy'}), 'shell': False}
+[0.295117] (dummy_sensors) JobProgress: {'identifier': 'dummy_sensors', 'progress': 'cmake'}
+[0.298578] (-) TimerEvent: {}
+[0.309924] (dummy_sensors) Command: {'cmd': ['/usr/bin/cmake', '/home/charl/ros2_ws/src/demos/dummy_robot/dummy_sensors', '-DCMAKE_INSTALL_PREFIX=/home/charl/ros2_ws/src/install/dummy_sensors'], 'cwd': '/home/charl/ros2_ws/src/build/dummy_sensors', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charl', 'SSH_CLIENT': '192.168.1.102 61422 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/charl', 'OLDPWD': '/home/charl/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/charl/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'charl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '16', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/charl/ros2_ws/src/build/dummy_sensors', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 61422 192.168.1.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy'}), 'shell': False}
+[0.321850] (lifecycle) JobProgress: {'identifier': 'lifecycle', 'progress': 'cmake'}
+[0.332788] (lifecycle) Command: {'cmd': ['/usr/bin/cmake', '/home/charl/ros2_ws/src/demos/lifecycle', '-DCMAKE_INSTALL_PREFIX=/home/charl/ros2_ws/src/install/lifecycle'], 'cwd': '/home/charl/ros2_ws/src/build/lifecycle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charl', 'SSH_CLIENT': '192.168.1.102 61422 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/charl', 'OLDPWD': '/home/charl/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/charl/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'charl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '16', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/charl/ros2_ws/src/build/lifecycle', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 61422 192.168.1.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy'}), 'shell': False}
+[0.377760] (pendulum_msgs) JobProgress: {'identifier': 'pendulum_msgs', 'progress': 'cmake'}
+[0.390273] (pendulum_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/charl/ros2_ws/src/demos/pendulum_msgs', '-DCMAKE_INSTALL_PREFIX=/home/charl/ros2_ws/src/install/pendulum_msgs'], 'cwd': '/home/charl/ros2_ws/src/build/pendulum_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charl', 'SSH_CLIENT': '192.168.1.102 61422 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/charl', 'OLDPWD': '/home/charl/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/charl/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'charl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '16', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/charl/ros2_ws/src/build/pendulum_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 61422 192.168.1.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy'}), 'shell': False}
+[0.401406] (-) TimerEvent: {}
+[0.504979] (-) TimerEvent: {}
+[0.606873] (-) TimerEvent: {}
+[0.709003] (-) TimerEvent: {}
+[0.810673] (-) TimerEvent: {}
+[0.913221] (-) TimerEvent: {}
+[1.015362] (-) TimerEvent: {}
+[1.117297] (-) TimerEvent: {}
+[1.219859] (-) TimerEvent: {}
+[1.322518] (-) TimerEvent: {}
+[1.428342] (-) TimerEvent: {}
+[1.530298] (-) TimerEvent: {}
+[1.633190] (-) TimerEvent: {}
+[1.734913] (-) TimerEvent: {}
+[1.836586] (-) TimerEvent: {}
+[1.939649] (-) TimerEvent: {}
+[2.041917] (-) TimerEvent: {}
+[2.145407] (-) TimerEvent: {}
+[2.247195] (-) TimerEvent: {}
+[2.363830] (-) TimerEvent: {}
+[2.470175] (-) TimerEvent: {}
+[2.571962] (-) TimerEvent: {}
+[2.674031] (-) TimerEvent: {}
+[2.776215] (-) TimerEvent: {}
+[2.877892] (-) TimerEvent: {}
+[2.979600] (-) TimerEvent: {}
+[3.081254] (-) TimerEvent: {}
+[3.184474] (-) TimerEvent: {}
+[3.286438] (-) TimerEvent: {}
+[3.390827] (-) TimerEvent: {}
+[3.496364] (-) TimerEvent: {}
+[3.605988] (-) TimerEvent: {}
+[3.707638] (-) TimerEvent: {}
+[3.809179] (-) TimerEvent: {}
+[3.910796] (-) TimerEvent: {}
+[4.012750] (-) TimerEvent: {}
+[4.083748] (pendulum_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.167798] (-) TimerEvent: {}
+[4.168823] (dummy_map_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.170267] (dummy_sensors) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.171868] (lifecycle) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.268212] (-) TimerEvent: {}
+[4.372579] (-) TimerEvent: {}
+[4.474191] (-) TimerEvent: {}
+[4.576024] (-) TimerEvent: {}
+[4.677850] (-) TimerEvent: {}
+[4.779667] (-) TimerEvent: {}
+[4.882387] (-) TimerEvent: {}
+[4.984472] (-) TimerEvent: {}
+[5.087326] (-) TimerEvent: {}
+[5.189325] (-) TimerEvent: {}
+[5.292396] (-) TimerEvent: {}
+[5.394157] (-) TimerEvent: {}
+[5.496550] (-) TimerEvent: {}
+[5.598347] (-) TimerEvent: {}
+[5.700311] (-) TimerEvent: {}
+[5.801961] (-) TimerEvent: {}
+[5.903647] (-) TimerEvent: {}
+[6.005270] (-) TimerEvent: {}
+[6.110028] (-) TimerEvent: {}
+[6.213886] (-) TimerEvent: {}
+[6.323669] (-) TimerEvent: {}
+[6.438470] (-) TimerEvent: {}
+[6.540824] (-) TimerEvent: {}
+[6.621904] (dummy_sensors) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.623542] (dummy_map_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.624858] (lifecycle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.626931] (pendulum_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[6.644407] (-) TimerEvent: {}
+[6.746297] (-) TimerEvent: {}
+[6.847768] (-) TimerEvent: {}
+[6.949420] (-) TimerEvent: {}
+[7.051341] (-) TimerEvent: {}
+[7.158239] (-) TimerEvent: {}
+[7.227154] (pendulum_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.243347] (dummy_map_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.245304] (dummy_sensors) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.247502] (lifecycle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.258528] (-) TimerEvent: {}
+[7.361380] (-) TimerEvent: {}
+[7.463916] (-) TimerEvent: {}
+[7.565444] (-) TimerEvent: {}
+[7.667198] (-) TimerEvent: {}
+[7.768937] (-) TimerEvent: {}
+[7.870478] (-) TimerEvent: {}
+[7.972147] (-) TimerEvent: {}
+[8.073817] (-) TimerEvent: {}
+[8.175496] (-) TimerEvent: {}
+[8.277487] (-) TimerEvent: {}
+[8.383468] (-) TimerEvent: {}
+[8.485686] (-) TimerEvent: {}
+[8.587486] (-) TimerEvent: {}
+[8.689241] (-) TimerEvent: {}
+[8.790721] (-) TimerEvent: {}
+[8.897400] (-) TimerEvent: {}
+[8.999229] (-) TimerEvent: {}
+[9.101278] (-) TimerEvent: {}
+[9.205362] (-) TimerEvent: {}
+[9.307423] (-) TimerEvent: {}
+[9.409349] (-) TimerEvent: {}
+[9.511597] (-) TimerEvent: {}
+[9.613540] (-) TimerEvent: {}
+[9.715275] (-) TimerEvent: {}
+[9.816778] (-) TimerEvent: {}
+[9.918426] (-) TimerEvent: {}
+[10.020206] (-) TimerEvent: {}
+[10.121717] (-) TimerEvent: {}
+[10.225290] (-) TimerEvent: {}
+[10.327152] (-) TimerEvent: {}
+[10.428552] (-) TimerEvent: {}
+[10.530414] (-) TimerEvent: {}
+[10.634398] (-) TimerEvent: {}
+[10.735949] (-) TimerEvent: {}
+[10.837609] (-) TimerEvent: {}
+[10.940525] (-) TimerEvent: {}
+[11.045720] (-) TimerEvent: {}
+[11.151995] (-) TimerEvent: {}
+[11.253869] (-) TimerEvent: {}
+[11.355646] (-) TimerEvent: {}
+[11.479492] (pendulum_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.535839] (-) TimerEvent: {}
+[11.537465] (dummy_map_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.540801] (lifecycle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.542668] (dummy_sensors) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.632143] (dummy_sensors) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.636372] (-) TimerEvent: {}
+[11.642429] (pendulum_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.646644] (pendulum_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.651624] (dummy_sensors) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.652927] (lifecycle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.657239] (lifecycle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.659240] (dummy_map_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.660759] (dummy_sensors) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.662448] (lifecycle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.663450] (dummy_map_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.664371] (pendulum_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.665294] (dummy_map_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.736546] (-) TimerEvent: {}
+[11.838262] (-) TimerEvent: {}
+[11.925896] (dummy_sensors) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.927553] (lifecycle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.931165] (dummy_map_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.932304] (pendulum_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.938513] (-) TimerEvent: {}
+[12.040253] (-) TimerEvent: {}
+[12.141790] (-) TimerEvent: {}
+[12.243380] (-) TimerEvent: {}
+[12.345336] (-) TimerEvent: {}
+[12.446903] (-) TimerEvent: {}
+[12.550009] (-) TimerEvent: {}
+[12.651521] (-) TimerEvent: {}
+[12.753283] (-) TimerEvent: {}
+[12.854910] (-) TimerEvent: {}
+[12.959422] (-) TimerEvent: {}
+[13.061333] (-) TimerEvent: {}
+[13.164386] (-) TimerEvent: {}
+[13.266257] (-) TimerEvent: {}
+[13.368215] (-) TimerEvent: {}
+[13.469967] (-) TimerEvent: {}
+[13.573328] (-) TimerEvent: {}
+[13.674859] (-) TimerEvent: {}
+[13.776552] (-) TimerEvent: {}
+[13.878317] (-) TimerEvent: {}
+[13.980007] (-) TimerEvent: {}
+[14.081907] (-) TimerEvent: {}
+[14.183653] (-) TimerEvent: {}
+[14.285625] (-) TimerEvent: {}
+[14.387913] (-) TimerEvent: {}
+[14.489648] (-) TimerEvent: {}
+[14.591520] (-) TimerEvent: {}
+[14.693026] (-) TimerEvent: {}
+[14.794574] (-) TimerEvent: {}
+[14.896471] (-) TimerEvent: {}
+[14.998218] (-) TimerEvent: {}
+[15.101903] (-) TimerEvent: {}
+[15.206905] (-) TimerEvent: {}
+[15.311674] (-) TimerEvent: {}
+[15.415555] (-) TimerEvent: {}
+[15.519481] (-) TimerEvent: {}
+[15.624407] (-) TimerEvent: {}
+[15.730752] (-) TimerEvent: {}
+[15.838474] (-) TimerEvent: {}
+[15.940355] (-) TimerEvent: {}
+[16.042312] (-) TimerEvent: {}
+[16.143943] (-) TimerEvent: {}
+[16.281427] (dummy_sensors) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.341447] (-) TimerEvent: {}
+[16.342514] (lifecycle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.344387] (pendulum_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.345984] (dummy_map_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[16.376539] (lifecycle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.378488] (dummy_sensors) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.379598] (pendulum_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.391458] (pendulum_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.393428] (dummy_sensors) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.394637] (lifecycle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.396516] (dummy_map_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[16.399414] (dummy_map_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[16.405565] (lifecycle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.407186] (dummy_map_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.409454] (dummy_sensors) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.411494] (pendulum_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[16.442451] (-) TimerEvent: {}
+[16.544282] (-) TimerEvent: {}
+[16.591240] (dummy_sensors) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[16.594900] (dummy_map_server) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[16.599479] (pendulum_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[16.601190] (lifecycle) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[16.644572] (-) TimerEvent: {}
+[16.749303] (-) TimerEvent: {}
+[16.850871] (-) TimerEvent: {}
+[16.953468] (-) TimerEvent: {}
+[17.055192] (-) TimerEvent: {}
+[17.156714] (-) TimerEvent: {}
+[17.258234] (-) TimerEvent: {}
+[17.360418] (-) TimerEvent: {}
+[17.464001] (-) TimerEvent: {}
+[17.571300] (-) TimerEvent: {}
+[17.673019] (-) TimerEvent: {}
+[17.779531] (-) TimerEvent: {}
+[17.884290] (-) TimerEvent: {}
+[17.989886] (-) TimerEvent: {}
+[18.094408] (-) TimerEvent: {}
+[18.199746] (-) TimerEvent: {}
+[18.304336] (-) TimerEvent: {}
+[18.409555] (-) TimerEvent: {}
+[18.515369] (-) TimerEvent: {}
+[18.616962] (-) TimerEvent: {}
+[18.724471] (-) TimerEvent: {}
+[18.831403] (-) TimerEvent: {}
+[18.936324] (-) TimerEvent: {}
+[19.038184] (-) TimerEvent: {}
+[19.142367] (-) TimerEvent: {}
+[19.171817] (dummy_map_server) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[19.178837] (pendulum_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[19.193305] (lifecycle) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[19.245441] (-) TimerEvent: {}
+[19.255502] (dummy_sensors) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[19.349384] (-) TimerEvent: {}
+[19.455303] (-) TimerEvent: {}
+[19.557336] (-) TimerEvent: {}
+[19.662302] (-) TimerEvent: {}
+[19.768682] (-) TimerEvent: {}
+[19.870976] (-) TimerEvent: {}
+[19.976465] (-) TimerEvent: {}
+[20.083286] (-) TimerEvent: {}
+[20.185748] (-) TimerEvent: {}
+[20.287426] (-) TimerEvent: {}
+[20.389406] (-) TimerEvent: {}
+[20.494443] (-) TimerEvent: {}
+[20.601525] (-) TimerEvent: {}
+[20.707026] (-) TimerEvent: {}
+[20.808685] (-) TimerEvent: {}
+[20.914267] (-) TimerEvent: {}
+[21.018013] (-) TimerEvent: {}
+[21.121809] (-) TimerEvent: {}
+[21.225248] (-) TimerEvent: {}
+[21.328373] (-) TimerEvent: {}
+[21.383564] (dummy_map_server) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[21.395746] (lifecycle) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[21.398739] (pendulum_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[21.403824] (dummy_sensors) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[21.431320] (-) TimerEvent: {}
+[21.535694] (-) TimerEvent: {}
+[21.639328] (-) TimerEvent: {}
+[21.740750] (-) TimerEvent: {}
+[21.842265] (-) TimerEvent: {}
+[21.946868] (-) TimerEvent: {}
+[22.049904] (-) TimerEvent: {}
+[22.116168] (dummy_sensors) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[22.118023] (pendulum_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[22.122490] (dummy_map_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[22.150302] (lifecycle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[22.151518] (-) TimerEvent: {}
+[22.255248] (-) TimerEvent: {}
+[22.354383] (pendulum_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[22.355923] (-) TimerEvent: {}
+[22.357868] (dummy_map_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[22.359354] (dummy_sensors) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[22.365239] (lifecycle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[22.456440] (-) TimerEvent: {}
+[22.560330] (-) TimerEvent: {}
+[22.663556] (-) TimerEvent: {}
+[22.736563] (dummy_map_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.738496] (lifecycle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.741472] (dummy_sensors) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.742807] (pendulum_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[22.764399] (-) TimerEvent: {}
+[22.867713] (-) TimerEvent: {}
+[22.973638] (-) TimerEvent: {}
+[23.055360] (dummy_map_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.057107] (lifecycle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.061838] (pendulum_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.062956] (dummy_sensors) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.076292] (-) TimerEvent: {}
+[23.180775] (-) TimerEvent: {}
+[23.284469] (-) TimerEvent: {}
+[23.354901] (pendulum_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[23.385541] (-) TimerEvent: {}
+[23.490001] (-) TimerEvent: {}
+[23.594392] (-) TimerEvent: {}
+[23.633708] (pendulum_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[23.695406] (-) TimerEvent: {}
+[23.800118] (-) TimerEvent: {}
+[23.902153] (-) TimerEvent: {}
+[24.004330] (-) TimerEvent: {}
+[24.111318] (-) TimerEvent: {}
+[24.221397] (-) TimerEvent: {}
+[24.322935] (-) TimerEvent: {}
+[24.387514] (dummy_sensors) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[24.423473] (-) TimerEvent: {}
+[24.451504] (dummy_sensors) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[24.461697] (lifecycle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[24.493383] (dummy_map_server) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[24.516244] (lifecycle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[24.525373] (-) TimerEvent: {}
+[24.628306] (-) TimerEvent: {}
+[24.732899] (-) TimerEvent: {}
+[24.839767] (-) TimerEvent: {}
+[24.941468] (-) TimerEvent: {}
+[25.046136] (-) TimerEvent: {}
+[25.149318] (-) TimerEvent: {}
+[25.205553] (dummy_map_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[25.249601] (-) TimerEvent: {}
+[25.258372] (dummy_map_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[25.350026] (-) TimerEvent: {}
+[25.456409] (-) TimerEvent: {}
+[25.564393] (-) TimerEvent: {}
+[25.670309] (-) TimerEvent: {}
+[25.771317] (lifecycle) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[25.773260] (-) TimerEvent: {}
+[25.789422] (dummy_sensors) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[25.876513] (-) TimerEvent: {}
+[25.978317] (-) TimerEvent: {}
+[26.000352] (lifecycle) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[26.002209] (dummy_sensors) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[26.078609] (-) TimerEvent: {}
+[26.181744] (-) TimerEvent: {}
+[26.285396] (-) TimerEvent: {}
+[26.287955] (dummy_sensors) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[26.291951] (lifecycle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[26.385712] (-) TimerEvent: {}
+[26.446794] (dummy_map_server) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[26.489415] (-) TimerEvent: {}
+[26.591969] (-) TimerEvent: {}
+[26.643417] (dummy_map_server) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[26.695293] (-) TimerEvent: {}
+[26.796772] (-) TimerEvent: {}
+[26.902162] (-) TimerEvent: {}
+[26.920266] (dummy_map_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[27.004530] (-) TimerEvent: {}
+[27.106322] (-) TimerEvent: {}
+[27.212329] (-) TimerEvent: {}
+[27.316939] (-) TimerEvent: {}
+[27.421917] (-) TimerEvent: {}
+[27.524955] (-) TimerEvent: {}
+[27.550290] (dummy_sensors) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[27.627299] (-) TimerEvent: {}
+[27.653745] (lifecycle) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[27.729458] (-) TimerEvent: {}
+[27.835185] (-) TimerEvent: {}
+[27.901360] (dummy_map_server) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[27.903491] (lifecycle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[27.935869] (-) TimerEvent: {}
+[28.038339] (-) TimerEvent: {}
+[28.142786] (-) TimerEvent: {}
+[28.246677] (-) TimerEvent: {}
+[28.350871] (-) TimerEvent: {}
+[28.452670] (-) TimerEvent: {}
+[28.554320] (-) TimerEvent: {}
+[28.655721] (-) TimerEvent: {}
+[28.676668] (dummy_sensors) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[28.756203] (-) TimerEvent: {}
+[28.859443] (-) TimerEvent: {}
+[28.987414] (-) TimerEvent: {}
+[29.090609] (-) TimerEvent: {}
+[29.194519] (-) TimerEvent: {}
+[29.296306] (-) TimerEvent: {}
+[29.399379] (-) TimerEvent: {}
+[29.503489] (-) TimerEvent: {}
+[29.608175] (-) TimerEvent: {}
+[29.715376] (-) TimerEvent: {}
+[29.820272] (-) TimerEvent: {}
+[29.922029] (-) TimerEvent: {}
+[30.026319] (-) TimerEvent: {}
+[30.130277] (-) TimerEvent: {}
+[30.233321] (-) TimerEvent: {}
+[30.337891] (-) TimerEvent: {}
+[30.388524] (dummy_map_server) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[30.436952] (dummy_map_server) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[30.438874] (-) TimerEvent: {}
+[30.443398] (dummy_map_server) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[30.444969] (dummy_map_server) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[30.465503] (dummy_map_server) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[30.467251] (dummy_map_server) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[30.483437] (dummy_map_server) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.511681] (dummy_map_server) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[30.516539] (dummy_map_server) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[30.521784] (dummy_map_server) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[30.540803] (-) TimerEvent: {}
+[30.621722] (dummy_map_server) StdoutLine: {'line': b'-- Configuring done (29.3s)\n'}
+[30.641207] (-) TimerEvent: {}
+[30.680750] (lifecycle) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:54 (find_package):\n'}
+[30.693181] (lifecycle) StderrLine: {'line': b'  By not providing "Findros_testing.cmake" in CMAKE_MODULE_PATH this project\n'}
+[30.695021] (lifecycle) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[30.696635] (lifecycle) StderrLine: {'line': b'  "ros_testing", but CMake did not find one.\n'}
+[30.697941] (lifecycle) StderrLine: {'line': b'\n'}
+[30.699348] (lifecycle) StderrLine: {'line': b'  Could not find a package configuration file provided by "ros_testing" with\n'}
+[30.700876] (lifecycle) StderrLine: {'line': b'  any of the following names:\n'}
+[30.702110] (lifecycle) StderrLine: {'line': b'\n'}
+[30.703330] (lifecycle) StderrLine: {'line': b'    ros_testingConfig.cmake\n'}
+[30.704478] (lifecycle) StderrLine: {'line': b'    ros_testing-config.cmake\n'}
+[30.706115] (lifecycle) StderrLine: {'line': b'\n'}
+[30.707578] (lifecycle) StderrLine: {'line': b'  Add the installation prefix of "ros_testing" to CMAKE_PREFIX_PATH or set\n'}
+[30.708861] (lifecycle) StderrLine: {'line': b'  "ros_testing_DIR" to a directory containing one of the above files.  If\n'}
+[30.710080] (lifecycle) StderrLine: {'line': b'  "ros_testing" provides a separate development package or SDK, be sure it\n'}
+[30.711261] (lifecycle) StderrLine: {'line': b'  has been installed.\n'}
+[30.719025] (lifecycle) StderrLine: {'line': b'\n'}
+[30.730663] (lifecycle) StderrLine: {'line': b'\x1b[0m\n'}
+[30.734320] (lifecycle) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[30.741464] (-) TimerEvent: {}
+[30.843372] (-) TimerEvent: {}
+[30.945147] (-) TimerEvent: {}
+[30.967715] (dummy_sensors) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[30.990743] (dummy_sensors) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[30.992746] (dummy_sensors) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[30.994804] (dummy_sensors) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[31.008087] (dummy_sensors) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[31.010467] (dummy_sensors) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[31.019909] (dummy_sensors) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[31.038145] (dummy_sensors) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[31.039809] (dummy_sensors) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[31.045367] (-) TimerEvent: {}
+[31.048310] (dummy_sensors) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.069476] (dummy_sensors) StdoutLine: {'line': b'-- Configuring done (29.8s)\n'}
+[31.145773] (-) TimerEvent: {}
+[31.247258] (-) TimerEvent: {}
+[31.348974] (-) TimerEvent: {}
+[31.397956] (lifecycle) CommandEnded: {'returncode': 1}
+[31.449435] (-) TimerEvent: {}
+[31.478559] (dummy_map_server) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[31.524792] (dummy_sensors) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[31.550524] (-) TimerEvent: {}
+[31.556627] (dummy_map_server) StdoutLine: {'line': b'-- Build files have been written to: /home/charl/ros2_ws/src/build/dummy_map_server\n'}
+[31.600643] (dummy_sensors) StdoutLine: {'line': b'-- Build files have been written to: /home/charl/ros2_ws/src/build/dummy_sensors\n'}
+[31.650862] (-) TimerEvent: {}
+[31.695417] (dummy_map_server) CommandEnded: {'returncode': 0}
+[31.707785] (dummy_map_server) JobProgress: {'identifier': 'dummy_map_server', 'progress': 'build'}
+[31.722200] (dummy_map_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/charl/ros2_ws/src/build/dummy_map_server', '--', '-j4', '-l4'], 'cwd': '/home/charl/ros2_ws/src/build/dummy_map_server', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charl', 'SSH_CLIENT': '192.168.1.102 61422 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/charl', 'OLDPWD': '/home/charl/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/charl/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'charl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '16', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/charl/ros2_ws/src/build/dummy_map_server', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 61422 192.168.1.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy'}), 'shell': False}
+[31.742719] (dummy_sensors) CommandEnded: {'returncode': 0}
+[31.764337] (-) TimerEvent: {}
+[31.784330] (dummy_sensors) JobProgress: {'identifier': 'dummy_sensors', 'progress': 'build'}
+[31.784954] (dummy_sensors) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/charl/ros2_ws/src/build/dummy_sensors', '--', '-j4', '-l4'], 'cwd': '/home/charl/ros2_ws/src/build/dummy_sensors', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'charl', 'SSH_CLIENT': '192.168.1.102 61422 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/charl', 'OLDPWD': '/home/charl/ros2_ws', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/charl/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'charl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '16', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/charl/ros2_ws/src/build/dummy_sensors', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.102 61422 192.168.1.105 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy'}), 'shell': False}
+[31.865322] (-) TimerEvent: {}
+[31.968153] (-) TimerEvent: {}
+[32.072015] (-) TimerEvent: {}
+[32.175377] (-) TimerEvent: {}
+[32.281463] (-) TimerEvent: {}
+[32.337766] (lifecycle) JobEnded: {'identifier': 'lifecycle', 'rc': 1}
+[32.381904] (-) TimerEvent: {}
+[32.486363] (-) TimerEvent: {}
+[32.587968] (-) TimerEvent: {}
+[32.684549] (dummy_sensors) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dummy_joint_states.dir/src/dummy_joint_states.cpp.o\x1b[0m\n'}
+[32.688540] (-) TimerEvent: {}
+[32.697794] (dummy_sensors) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dummy_laser.dir/src/dummy_laser.cpp.o\x1b[0m\n'}
+[32.737597] (dummy_map_server) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dummy_map_server.dir/src/dummy_map_server.cpp.o\x1b[0m\n'}
+[32.788813] (-) TimerEvent: {}
+[32.890263] (-) TimerEvent: {}
+[32.991942] (-) TimerEvent: {}
+[33.093748] (-) TimerEvent: {}
+[33.195352] (-) TimerEvent: {}
+[33.298780] (-) TimerEvent: {}
+[33.406320] (-) TimerEvent: {}
+[33.443914] (pendulum_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[33.506590] (-) TimerEvent: {}
+[33.608026] (-) TimerEvent: {}
+[33.711293] (-) TimerEvent: {}
+[33.813422] (-) TimerEvent: {}
+[33.917535] (-) TimerEvent: {}
+[34.021308] (-) TimerEvent: {}
+[34.122702] (-) TimerEvent: {}
+[34.226798] (-) TimerEvent: {}
+[34.330801] (-) TimerEvent: {}
+[34.433329] (-) TimerEvent: {}
+[34.535306] (-) TimerEvent: {}
+[34.639442] (-) TimerEvent: {}
+[34.745312] (-) TimerEvent: {}
+[34.848265] (-) TimerEvent: {}
+[34.950160] (-) TimerEvent: {}
+[35.052149] (-) TimerEvent: {}
+[35.154444] (-) TimerEvent: {}
+[35.257339] (-) TimerEvent: {}
+[35.364279] (-) TimerEvent: {}
+[35.475777] (-) TimerEvent: {}
+[35.577367] (-) TimerEvent: {}
+[35.680363] (-) TimerEvent: {}
+[35.783851] (-) TimerEvent: {}
+[35.887408] (-) TimerEvent: {}
+[35.989270] (-) TimerEvent: {}
+[36.090529] (-) TimerEvent: {}
+[36.193933] (-) TimerEvent: {}
+[36.296444] (-) TimerEvent: {}
+[36.398339] (-) TimerEvent: {}
+[36.501865] (-) TimerEvent: {}
+[36.604512] (-) TimerEvent: {}
+[36.706218] (-) TimerEvent: {}
+[36.807921] (-) TimerEvent: {}
+[36.909484] (-) TimerEvent: {}
+[37.011303] (-) TimerEvent: {}
+[37.113960] (-) TimerEvent: {}
+[37.217703] (-) TimerEvent: {}
+[37.371601] (-) TimerEvent: {}
+[37.473810] (-) TimerEvent: {}
+[37.575339] (-) TimerEvent: {}
+[37.691509] (-) TimerEvent: {}
+[37.875363] (-) TimerEvent: {}
+[37.978282] (-) TimerEvent: {}
+[38.086382] (-) TimerEvent: {}
+[38.188321] (-) TimerEvent: {}
+[38.290626] (-) TimerEvent: {}
+[38.393318] (-) TimerEvent: {}
+[38.495483] (-) TimerEvent: {}
+[38.597248] (-) TimerEvent: {}
+[38.738017] (-) TimerEvent: {}
+[38.897524] (-) TimerEvent: {}
+[39.208472] (-) TimerEvent: {}
+[40.174317] (-) TimerEvent: {}
+[40.332078] (-) TimerEvent: {}
+[40.434975] (-) TimerEvent: {}
+[40.537019] (-) TimerEvent: {}
+[40.639899] (-) TimerEvent: {}
+[40.762301] (-) TimerEvent: {}
+[40.863978] (-) TimerEvent: {}
+[40.966599] (-) TimerEvent: {}
+[41.068694] (-) TimerEvent: {}
+[41.181198] (-) TimerEvent: {}
+[41.284692] (-) TimerEvent: {}
+[41.386873] (-) TimerEvent: {}
+[41.490027] (-) TimerEvent: {}
+[41.593932] (-) TimerEvent: {}
+[41.752232] (-) TimerEvent: {}
+[41.936794] (-) TimerEvent: {}
+[42.063022] (-) TimerEvent: {}
+[42.165419] (-) TimerEvent: {}
+[42.268011] (-) TimerEvent: {}
+[42.370900] (-) TimerEvent: {}
+[42.474227] (-) TimerEvent: {}
+[42.576331] (-) TimerEvent: {}
+[42.678136] (-) TimerEvent: {}
+[42.803541] (-) TimerEvent: {}
+[42.935766] (-) TimerEvent: {}
+[43.053436] (-) TimerEvent: {}
+[43.156299] (-) TimerEvent: {}
+[43.566573] (-) TimerEvent: {}
+[43.976971] (-) TimerEvent: {}
+[45.039641] (-) TimerEvent: {}
+[48.603090] (-) TimerEvent: {}
+[51.542903] (-) TimerEvent: {}
+[53.756711] (-) TimerEvent: {}
+[55.850970] (-) TimerEvent: {}
+[58.075111] (-) TimerEvent: {}
+[62.479291] (-) TimerEvent: {}
+[62.627030] (dummy_sensors) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dummy_laser.dir/build.make:76: CMakeFiles/dummy_laser.dir/src/dummy_laser.cpp.o] Interrupt\n'}
+[62.731023] (-) TimerEvent: {}
+[62.735479] (dummy_sensors) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dummy_joint_states.dir/build.make:76: CMakeFiles/dummy_joint_states.dir/src/dummy_joint_states.cpp.o] Interrupt\n'}
+[62.743968] (dummy_map_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dummy_map_server.dir/build.make:76: CMakeFiles/dummy_map_server.dir/src/dummy_map_server.cpp.o] Interrupt\n'}
+[62.780400] (dummy_map_server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dummy_map_server.dir/all] Interrupt\n'}
+[62.781972] (dummy_map_server) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[62.784748] (dummy_sensors) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/dummy_joint_states.dir/all] Interrupt\n'}
+[62.786716] (dummy_sensors) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/dummy_laser.dir/all] Interrupt\n'}
+[62.788739] (dummy_sensors) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[62.791724] (dummy_sensors) JobEnded: {'identifier': 'dummy_sensors', 'rc': 'SIGINT'}
+[62.844797] (-) TimerEvent: {}
+[62.851573] (pendulum_msgs) JobEnded: {'identifier': 'pendulum_msgs', 'rc': 'SIGINT'}
+[62.870388] (dummy_map_server) JobEnded: {'identifier': 'dummy_map_server', 'rc': 'SIGINT'}
+[62.907380] (action_tutorials_cpp) JobSkipped: {'identifier': 'action_tutorials_cpp'}
+[62.907671] (action_tutorials_py) JobSkipped: {'identifier': 'action_tutorials_py'}
+[62.907873] (bmp280) JobSkipped: {'identifier': 'bmp280'}
+[62.908104] (composition) JobSkipped: {'identifier': 'composition'}
+[62.908315] (demo_nodes_cpp) JobSkipped: {'identifier': 'demo_nodes_cpp'}
+[62.908511] (demo_nodes_cpp_native) JobSkipped: {'identifier': 'demo_nodes_cpp_native'}
+[62.908707] (demo_nodes_py) JobSkipped: {'identifier': 'demo_nodes_py'}
+[62.908904] (image_tools) JobSkipped: {'identifier': 'image_tools'}
+[62.909175] (intra_process_demo) JobSkipped: {'identifier': 'intra_process_demo'}
+[62.909752] (logging_demo) JobSkipped: {'identifier': 'logging_demo'}
+[62.910148] (quality_of_service_demo_cpp) JobSkipped: {'identifier': 'quality_of_service_demo_cpp'}
+[62.910482] (quality_of_service_demo_py) JobSkipped: {'identifier': 'quality_of_service_demo_py'}
+[62.910713] (topic_monitor) JobSkipped: {'identifier': 'topic_monitor'}
+[62.910919] (topic_statistics_demo) JobSkipped: {'identifier': 'topic_statistics_demo'}
+[62.911189] (dummy_robot_bringup) JobSkipped: {'identifier': 'dummy_robot_bringup'}
+[62.911421] (lifecycle_py) JobSkipped: {'identifier': 'lifecycle_py'}
+[62.911624] (pendulum_control) JobSkipped: {'identifier': 'pendulum_control'}
+[62.911828] (-) EventReactorShutdown: {}

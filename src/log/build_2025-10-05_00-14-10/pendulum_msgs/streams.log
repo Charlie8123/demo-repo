@@ -1,0 +1,23 @@
+[0.217s] Invoking command in '/home/charl/ros2_ws/src/build/pendulum_msgs': CMAKE_PREFIX_PATH=/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy /usr/bin/cmake /home/charl/ros2_ws/src/demos/pendulum_msgs -DCMAKE_INSTALL_PREFIX=/home/charl/ros2_ws/src/install/pendulum_msgs
+[3.976s] -- The C compiler identification is GNU 13.3.0
+[6.450s] -- The CXX compiler identification is GNU 13.3.0
+[7.062s] -- Detecting C compiler ABI info
+[11.343s] -- Detecting C compiler ABI info - done
+[11.465s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.470s] -- Detecting C compile features
+[11.484s] -- Detecting C compile features - done
+[11.752s] -- Detecting CXX compiler ABI info
+[16.164s] -- Detecting CXX compiler ABI info - done
+[16.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[16.212s] -- Detecting CXX compile features
+[16.231s] -- Detecting CXX compile features - done
+[16.420s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[19.003s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[21.219s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[21.940s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[22.174s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[22.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.175s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[23.455s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[33.268s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)

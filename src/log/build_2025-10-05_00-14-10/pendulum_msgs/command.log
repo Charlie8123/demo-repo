@@ -1,0 +1,1 @@
+Invoking command in '/home/charl/ros2_ws/src/build/pendulum_msgs': CMAKE_PREFIX_PATH=/home/charl/ros2_ws/src/install/bmp280:/opt/ros/jazzy /usr/bin/cmake /home/charl/ros2_ws/src/demos/pendulum_msgs -DCMAKE_INSTALL_PREFIX=/home/charl/ros2_ws/src/install/pendulum_msgs

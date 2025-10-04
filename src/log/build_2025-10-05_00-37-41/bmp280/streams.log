@@ -1,0 +1,22 @@
+[14.945s] Invoking command in '/home/charl/ros2_ws/src/ros2-bmp280': PYTHONPATH=/home/charl/ros2_ws/src/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bmp280 build --build-base /home/charl/ros2_ws/src/build/bmp280/build install --record /home/charl/ros2_ws/src/build/bmp280/install.log --single-version-externally-managed install_data
+[18.881s] running egg_info
+[19.124s] writing ../build/bmp280/bmp280.egg-info/PKG-INFO
+[19.127s] writing dependency_links to ../build/bmp280/bmp280.egg-info/dependency_links.txt
+[19.135s] writing entry points to ../build/bmp280/bmp280.egg-info/entry_points.txt
+[19.136s] writing requirements to ../build/bmp280/bmp280.egg-info/requires.txt
+[19.138s] writing top-level names to ../build/bmp280/bmp280.egg-info/top_level.txt
+[19.634s] reading manifest file '../build/bmp280/bmp280.egg-info/SOURCES.txt'
+[19.640s] adding license file 'LICENSE'
+[19.651s] writing manifest file '../build/bmp280/bmp280.egg-info/SOURCES.txt'
+[19.652s] running build
+[19.653s] running build_py
+[19.657s] running install
+[19.740s] running install_lib
+[20.003s] running install_data
+[20.012s] running install_egg_info
+[20.279s] removing '/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info' (and everything under it)
+[20.284s] Copying ../build/bmp280/bmp280.egg-info to /home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages/bmp280-0.0.0-py3.12.egg-info
+[20.300s] running install_scripts
+[22.390s] Installing bmp280_node script to /home/charl/ros2_ws/src/install/bmp280/lib/bmp280
+[22.401s] writing list of installed files to '/home/charl/ros2_ws/src/build/bmp280/install.log'
+[22.953s] Invoked command in '/home/charl/ros2_ws/src/ros2-bmp280' returned '0': PYTHONPATH=/home/charl/ros2_ws/src/build/bmp280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/charl/ros2_ws/src/install/bmp280/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bmp280 build --build-base /home/charl/ros2_ws/src/build/bmp280/build install --record /home/charl/ros2_ws/src/build/bmp280/install.log --single-version-externally-managed install_data
