@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Temperature, FluidPressure  # <-- use these
+from sensor_msgs.msg import Temperature, FluidPressure 
+
 
 class Bmp280Subscriber(Node):
     def __init__(self):
